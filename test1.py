@@ -1,5 +1,5 @@
 import mysql.connector
-
+#dfvrebgfhbngfdsfdadsas
 try:
     with open('Password.txt', 'r') as get_file_info:
         passwd = get_file_info.read().strip()
@@ -50,4 +50,5 @@ try:
             print(x)
 
 except mysql.connector.Error as err:
+    
     print(f"MySQL Connector error: {err}")
